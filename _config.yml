@@ -79,3 +79,105 @@ We may update this Privacy Policy from time to time. The date at the top shows t
 
 Contact and data deletion
 For privacy questions or deletion requests, see Data Deletion Instructions or contact romanvodyanitskiy2003@gmail.com.
+
+# Data Deletion Instructions
+
+**Last updated:** 16 November 2026
+
+This page explains how to request deletion of data processed by **Instagram Bot** ("the Service").
+
+**Operator:** Raman, Grunwaldzka 119, Poland
+**Contact:** romanvodyanitskiy2003@gmail.com
+**Service address:** https://restaurant-soft-a1.onrender.com
+
+## 1. If you are a restaurant or business Client
+
+You can delete your Client account and associated data in two ways.
+
+### Option A — from the admin panel
+
+The owner of the Service can open:
+
+`https://restaurant-soft-a1.onrender.com/admin`
+
+and delete the Client from the Clients list or from the Client card. Deleting a Client removes:
+
+- the Client record;
+- the Instagram channel and encrypted access token;
+- the knowledge base;
+- portal links;
+- pending OAuth states;
+- mock outbound messages, if any.
+
+The default system client is protected from deletion because it is recreated from the deployment configuration at startup.
+
+### Option B — by email
+
+Send a deletion request from the email associated with the Client, or include enough information to identify the account, to:
+
+**romanvodyanitskiy2003@gmail.com**
+
+Include:
+
+- the restaurant/business name;
+- the Instagram `@username` connected to the Service;
+- the approximate connection date, if known;
+- the email address to contact you at.
+
+We may ask for reasonable verification before deleting an account to prevent unauthorised deletion.
+
+### Also revoke Instagram access
+
+Deleting the Client in our database does not automatically revoke the token at Meta. To remove the app's access completely:
+
+1. Open Instagram.
+2. Go to **Settings → Website permissions → Apps and websites**.
+3. Find the app and remove its access.
+
+This prevents any future use of the authorisation at Meta.
+
+## 2. If you are an Instagram guest
+
+If you sent a Direct message to a restaurant that uses the Service:
+
+- the restaurant is normally responsible for the conversation;
+- the Service processes the message to generate a reply;
+- production message text is not stored in our application database by default; short-lived in-memory context is normally removed within 24 hours and is lost when the process restarts;
+- Meta independently stores the Instagram conversation under its own policies.
+
+You can:
+
+1. Delete the conversation in Instagram.
+2. Remove the app's access in **Instagram → Settings → Website permissions → Apps and websites**.
+3. Contact the restaurant directly, or email **romanvodyanitskiy2003@gmail.com** with the restaurant name, your Instagram username and the approximate date of the conversation.
+
+We will delete data we control, forward the request to the relevant restaurant where appropriate, and confirm the result. We may need to verify that you are the account holder.
+
+## 3. What we delete and what may remain
+
+We delete or anonymise:
+
+- Client account details;
+- Instagram channel and encrypted token;
+- knowledge base;
+- portal links and OAuth states;
+- mock/test messages;
+- other personal data we control and are not legally required to keep.
+
+We may retain limited records where required by law, for security or for resolving disputes. Backup copies may remain for a short period until the backup rotation completes, after which they are deleted. Aggregated or anonymised information that cannot identify a person may be retained.
+
+We cannot delete data held independently by Meta, Instagram, Render, Supabase, Google or DeepSeek; those providers have their own deletion tools and policies. Removing the app in Instagram and using provider controls is the fastest way to address their copies.
+
+## 4. How long deletion takes
+
+We aim to respond to verified requests within **30 days**, or within the period required by applicable law. If we need more time or more information, we will contact you.
+
+## 5. Contact
+
+For deletion requests or questions:
+
+**romanvodyanitskiy2003@gmail.com**
+
+For general privacy information, see the [Privacy Policy](https://restaurant-soft-a1.onrender.com/privacy).
+
+
